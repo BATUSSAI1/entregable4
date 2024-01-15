@@ -1,0 +1,90 @@
+
+.user_container{
+    width: 100%;
+    max-width: 350px;
+    margin: 2em;
+    border:  1px solid;
+    border-color: rgb(180, 177, 177);
+    border-radius: 5px;
+}
+
+.user_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5em;
+    
+
+}
+.user_email{
+    display: flex;
+    color: rgb(166, 163, 163);
+    font-size: 0.9em;
+    margin: 0.5em 0;
+
+}
+.user_birth{
+    display: flex;
+    color: rgb(166, 163, 163);
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+
+.user_btn{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-bottom: 1em;
+    margin-right: 2rem;
+    gap: 1em;
+
+}
+
+.user_delete:hover{
+    transform: scaleY(1.1);
+}
+.user_delete{
+    background-color: transparent;
+    color: red;
+    border-color: red;
+    transition: 200ms ease transform;
+    
+}
+
+.user_edit{
+    background-color: transparent;
+    color: blue;
+    border-color: blue;
+    transition: 200ms ease transform;
+}
+
+.user_edit:hover{
+    transform: scaleY(1.1);
+}
+
+hr{
+    color: rgb(249, 220, 220);
+    margin: 1em;
+}
+.user_email2{
+    gap: 1em;
+    margin-top: 1em;
+    font-size: 1.2em;
+
+}
+.user_brith2{
+    font-size: 1.2em;
+}
+
+.bx-gift{
+    color: rgb(202, 167, 234);
+}
+
+@media (max-width: 500px) {
+
+    .bx-gift{
+        color: rgb(218, 223, 79);
+    }
+}
