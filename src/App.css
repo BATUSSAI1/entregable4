@@ -6,7 +6,7 @@
     font-family: 'Ruslan Display', sans-serif;;
     font-weight: 300;
     font-size: 150px;
-    top: 30px;
+    top: 70px;
     position: absolute;
     margin-left: 45rem;
     color: azure;
@@ -85,6 +85,7 @@ input, label {
     }
 
     .title{
+
         font-size: 50px;
     }
 }
