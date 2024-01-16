@@ -82,9 +82,9 @@ hr{
     color: rgb(202, 167, 234);
 }
 
-@media (max-width: 500px) {
+/*@media (max-width: 500px) {
 
     .bx-gift{
         color: rgb(218, 223, 79);
     }
-}
+}*/

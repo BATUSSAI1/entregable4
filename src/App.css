@@ -6,16 +6,22 @@
     font-family: 'Ruslan Display', sans-serif;;
     font-weight: 300;
     font-size: 150px;
-    top: 90px;
+    top: 20px;
     position: absolute;
-    margin-left: 45rem;
+    left: 13rem;
     color: azure;
 }
 
 label{
     display: block;
 }
+.img_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
 input, label {
     font-size: 1rem;
 }
@@ -40,8 +46,8 @@ input, label {
 .container_user{
     width:100%;
     margin: 0 3rem 1rem 0;
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 1em;
 
 }
